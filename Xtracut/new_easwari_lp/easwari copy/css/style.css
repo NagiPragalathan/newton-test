@@ -782,3 +782,68 @@ footer{
   font-weight: 600;
   font-size: 16px;
 }
+
+
+
+.container-Courses {
+  padding: 7%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #65448f;
+  gap: 25px;
+}
+.nav-tabs .nav-link {
+  border: none;
+  border-radius: 0;
+}
+.nav-tabs .nav-link.active {
+  background-color: #FFC107;
+  color: black;
+}
+.nav-tabs .nav-link {
+  background-color: #FFC107;
+  color: black;
+  padding: 25px;
+  border-radius: 6px;
+  font-size: 19px;
+  align-content: center;
+
+}
+.nav-item{
+  width: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.nav-tabs {
+  border-bottom: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.checklist-item {
+  display: flex;
+  align-items: center;
+}
+.checklist-item i {
+  color: #FFC107;
+  margin-right: 10px;
+}
+.container-course-content{
+  padding: 15px;
+  background: white;
+  border-radius: 11px;
+  font-size: 17px;
+}
+
+.courses-title::before{
+  content: '';
+  width: 50px;
+  height: 2px;
+  background-color: #FFD700;
+  margin-right: 10px;
+}
