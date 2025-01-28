@@ -809,7 +809,6 @@ footer{
   border-radius: 6px;
   font-size: 19px;
   align-content: center;
-
 }
 .nav-item{
   width: 50%;
@@ -834,16 +833,29 @@ footer{
   margin-right: 10px;
 }
 .container-course-content{
-  padding: 15px;
+  padding: 26px;
   background: white;
   border-radius: 11px;
   font-size: 17px;
 }
-
+.courses-title{
+  text-align: center;
+  color: #fff;
+}
 .courses-title::before{
   content: '';
   width: 50px;
   height: 2px;
   background-color: #FFD700;
   margin-right: 10px;
+}
+.container-course-content p{
+  font-size: 17px;
+  font-weight: 600;
+}
+.container-course-content h4{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-top: 21px;
 }
